@@ -121,3 +121,42 @@ header img{
 .contact-me i{
     margin-right: 15px;
 }
+
+.projects {
+
+}
+
+.project-frame{
+    padding: 11px;
+    margin: 0 33px;
+    position: relative;
+    z-index: 1;
+}
+.project-frame::before{
+    content: "";
+    width: 60px;
+    height: 60px;
+    border-width: 1px 0 0 1px;
+    border-style: dashed;
+    border-color: #8cc850;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+.project-frame::after{
+    content: "";
+    width: 60px;
+    height: 60px;
+    border-width: 0 1px 1px 0;
+    border-style: dashed;
+    border-color: #8cc850;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+}
+/* .project-frame{
+    padding: 11px;
+    margin: 0 33px;
+} */
