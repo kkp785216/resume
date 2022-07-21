@@ -1,0 +1,123 @@
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 128.81px;
+    color: #314d5b;
+    background-color: #84acb6;
+    position: relative;
+}
+
+header h1{
+    font-size: 43px;
+    margin-top: 21px;
+}
+
+header img{
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    box-shadow: 0 0 4px 2px #000000ad;
+}
+
+.education{
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.education img{
+    margin-right: 13px;
+}
+.education-name p:first-child{
+    line-height: 1;
+}
+.education-percentage {
+    margin-right: 15px;
+}
+.education-percentage p{
+    font-size: 37px;
+    line-height: 1;
+}
+.education-percentage span{
+    display: block;
+    font-size: 13px;
+    text-align: center;
+}
+
+.skills .row{
+    margin: 0;
+}
+.skills .row .col:first-child{
+    padding-left: 0;
+}
+.skills .row .col:last-child{
+    padding-right: 0;
+}
+.skill-progress-row{
+}
+.skill-progress-row> .col:first-child{
+    width: 60%;
+    flex: 0 0 auto;
+}
+.skill-progress-row> .col:last-child{
+    width: 40%;
+    flex: 0 0 auto;
+}
+.skill-progress-container{
+    width: 100%;
+    background-color: #4d6672;
+    height: 11px;
+}
+.skill-progress{
+    background-color: #92d050;
+    height: 11px;
+}
+.skill-container p{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.my-skills{
+    margin-bottom: 23px;
+}
+.my-skills .row{
+
+}
+.my-skills .col{
+
+}
+.my-skills-row{
+    
+}
+.my-skills-row .col:first-child{
+    width: 60%;
+    flex: 0 0 auto;
+}
+.my-skills-row .col:last-child{
+    flex: 0 0 auto;
+    width: 40%;
+}
+.my-skills-progress> div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19px;
+    height: 19px;
+    background-color: #4d6672;
+    border-radius: 100%;
+}
+.my-skills-progress> div> div{
+    width: 9px;
+    height: 9px;
+    background-color: #92d050;
+    border-radius: 100%;
+}
+.my-skills-text{
+
+}
+
+.contact-me i{
+    margin-right: 15px;
+}
